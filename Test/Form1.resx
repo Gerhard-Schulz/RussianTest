@@ -1,0 +1,1632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 15.75pt, style=Bold</value>
+  </data>
+  <data name="NameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="NameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 24</value>
+  </data>
+  <data name="NameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NameLabel.Text" xml:space="preserve">
+    <value>Тест по русскому языку</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Name" xml:space="preserve">
+    <value>NameLabel</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="FIO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 12</value>
+  </data>
+  <data name="FIO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 20</value>
+  </data>
+  <data name="FIO.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FIO.Name" xml:space="preserve">
+    <value>FIO</value>
+  </data>
+  <data name="&gt;&gt;FIO.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FIO.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FIO.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="FIOlab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FIOlab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt, style=Bold, Italic</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FIOlab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FIOlab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>493, 11</value>
+  </data>
+  <data name="FIOlab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 18</value>
+  </data>
+  <data name="FIOlab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="FIOlab.Text" xml:space="preserve">
+    <value>ФИО участника:</value>
+  </data>
+  <data name="&gt;&gt;FIOlab.Name" xml:space="preserve">
+    <value>FIOlab</value>
+  </data>
+  <data name="&gt;&gt;FIOlab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FIOlab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FIOlab.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Answer25.Name" xml:space="preserve">
+    <value>Answer25</value>
+  </data>
+  <data name="&gt;&gt;Answer25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer25.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer25.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Answer22.Name" xml:space="preserve">
+    <value>Answer22</value>
+  </data>
+  <data name="&gt;&gt;Answer22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer22.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Answer24.Name" xml:space="preserve">
+    <value>Answer24</value>
+  </data>
+  <data name="&gt;&gt;Answer24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer24.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Answer21.Name" xml:space="preserve">
+    <value>Answer21</value>
+  </data>
+  <data name="&gt;&gt;Answer21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer21.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Answer23.Name" xml:space="preserve">
+    <value>Answer23</value>
+  </data>
+  <data name="&gt;&gt;Answer23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer23.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer23.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="group2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="group2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 66</value>
+  </data>
+  <data name="group2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 138</value>
+  </data>
+  <data name="group2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;group2.Name" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;group2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;group2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;group2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Answer25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="Answer25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 19</value>
+  </data>
+  <data name="Answer25.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Answer25.Text" xml:space="preserve">
+    <value>умножать, деревяшка, расстегнуть</value>
+  </data>
+  <data name="&gt;&gt;Answer25.Name" xml:space="preserve">
+    <value>Answer25</value>
+  </data>
+  <data name="&gt;&gt;Answer25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer25.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer25.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Answer22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="Answer22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 19</value>
+  </data>
+  <data name="Answer22.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Answer22.Text" xml:space="preserve">
+    <value>сказание, оснащение, росистая (поляна)</value>
+  </data>
+  <data name="&gt;&gt;Answer22.Name" xml:space="preserve">
+    <value>Answer22</value>
+  </data>
+  <data name="&gt;&gt;Answer22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer22.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer22.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Answer24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="Answer24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 19</value>
+  </data>
+  <data name="Answer24.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Answer24.Text" xml:space="preserve">
+    <value>кастрюля, лингвистический, преподавать</value>
+  </data>
+  <data name="&gt;&gt;Answer24.Name" xml:space="preserve">
+    <value>Answer24</value>
+  </data>
+  <data name="&gt;&gt;Answer24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer24.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer24.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Answer21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="Answer21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 19</value>
+  </data>
+  <data name="Answer21.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Answer21.Text" xml:space="preserve">
+    <value>неприкасаемый, ошеломлённый, ярмарочный</value>
+  </data>
+  <data name="&gt;&gt;Answer21.Name" xml:space="preserve">
+    <value>Answer21</value>
+  </data>
+  <data name="&gt;&gt;Answer21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer21.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Answer23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="Answer23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 19</value>
+  </data>
+  <data name="Answer23.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Answer23.Text" xml:space="preserve">
+    <value>способный, повторять, умалять (значение)</value>
+  </data>
+  <data name="&gt;&gt;Answer23.Name" xml:space="preserve">
+    <value>Answer23</value>
+  </data>
+  <data name="&gt;&gt;Answer23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer23.Parent" xml:space="preserve">
+    <value>group2</value>
+  </data>
+  <data name="&gt;&gt;Answer23.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Task2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Task2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="Task2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 50</value>
+  </data>
+  <data name="Task2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>768, 17</value>
+  </data>
+  <data name="Task2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Task2.Text" xml:space="preserve">
+    <value>1) Укажите варианты ответов, в которых во всех словах одного ряда содержится безударная проверяемая гласная корня.</value>
+  </data>
+  <data name="&gt;&gt;Task2.Name" xml:space="preserve">
+    <value>Task2</value>
+  </data>
+  <data name="&gt;&gt;Task2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Task2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Task2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Task3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Task3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="Task3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Task3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 217</value>
+  </data>
+  <data name="Task3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>636, 17</value>
+  </data>
+  <data name="Task3.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Task3.Text" xml:space="preserve">
+    <value>2) Укажите варианты ответов, в которых во всех словах одного ряда пропущена одна и та же буква.</value>
+  </data>
+  <data name="&gt;&gt;Task3.Name" xml:space="preserve">
+    <value>Task3</value>
+  </data>
+  <data name="&gt;&gt;Task3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Task3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Task3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Answer35.Name" xml:space="preserve">
+    <value>Answer35</value>
+  </data>
+  <data name="&gt;&gt;Answer35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer35.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer35.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Answer32.Name" xml:space="preserve">
+    <value>Answer32</value>
+  </data>
+  <data name="&gt;&gt;Answer32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer32.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer32.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Answer34.Name" xml:space="preserve">
+    <value>Answer34</value>
+  </data>
+  <data name="&gt;&gt;Answer34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer34.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer34.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Answer31.Name" xml:space="preserve">
+    <value>Answer31</value>
+  </data>
+  <data name="&gt;&gt;Answer31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer31.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer31.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Answer33.Name" xml:space="preserve">
+    <value>Answer33</value>
+  </data>
+  <data name="&gt;&gt;Answer33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer33.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer33.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="group3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="group3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 237</value>
+  </data>
+  <data name="group3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 138</value>
+  </data>
+  <data name="group3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;group3.Name" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;group3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;group3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;group3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Answer35.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="Answer35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 19</value>
+  </data>
+  <data name="Answer35.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Answer35.Text" xml:space="preserve">
+    <value>от..явленный, с..ёжиться, нав..ючивать</value>
+  </data>
+  <data name="&gt;&gt;Answer35.Name" xml:space="preserve">
+    <value>Answer35</value>
+  </data>
+  <data name="&gt;&gt;Answer35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer35.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer35.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Answer32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="Answer32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 19</value>
+  </data>
+  <data name="Answer32.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Answer32.Text" xml:space="preserve">
+    <value>с..митировать, сверх..дея, супер..нтеллектуальный</value>
+  </data>
+  <data name="&gt;&gt;Answer32.Name" xml:space="preserve">
+    <value>Answer32</value>
+  </data>
+  <data name="&gt;&gt;Answer32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer32.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer32.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Answer34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="Answer34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>299, 19</value>
+  </data>
+  <data name="Answer34.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Answer34.Text" xml:space="preserve">
+    <value>раз..гнавшись, под..брать, пр..говорить (два часа)</value>
+  </data>
+  <data name="&gt;&gt;Answer34.Name" xml:space="preserve">
+    <value>Answer34</value>
+  </data>
+  <data name="&gt;&gt;Answer34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer34.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer34.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Answer31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="Answer31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 19</value>
+  </data>
+  <data name="Answer31.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Answer31.Text" xml:space="preserve">
+    <value>не..держанный, бе..шумный, чере..страничный</value>
+  </data>
+  <data name="&gt;&gt;Answer31.Name" xml:space="preserve">
+    <value>Answer31</value>
+  </data>
+  <data name="&gt;&gt;Answer31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer31.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer31.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Answer33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="Answer33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 19</value>
+  </data>
+  <data name="Answer33.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Answer33.Text" xml:space="preserve">
+    <value>пр..сыщенный, беспр..кословно, пр..одолеть</value>
+  </data>
+  <data name="&gt;&gt;Answer33.Name" xml:space="preserve">
+    <value>Answer33</value>
+  </data>
+  <data name="&gt;&gt;Answer33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer33.Parent" xml:space="preserve">
+    <value>group3</value>
+  </data>
+  <data name="&gt;&gt;Answer33.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Task4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Task4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="Task4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Task4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 387</value>
+  </data>
+  <data name="Task4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>637, 17</value>
+  </data>
+  <data name="Task4.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Task4.Text" xml:space="preserve">
+    <value>3) Укажите варианты ответов, в которых в обоих словах одного ряда пропущена одна и та же буква.</value>
+  </data>
+  <data name="&gt;&gt;Task4.Name" xml:space="preserve">
+    <value>Task4</value>
+  </data>
+  <data name="&gt;&gt;Task4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Task4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Task4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Answer45.Name" xml:space="preserve">
+    <value>Answer45</value>
+  </data>
+  <data name="&gt;&gt;Answer45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer45.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer45.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Answer42.Name" xml:space="preserve">
+    <value>Answer42</value>
+  </data>
+  <data name="&gt;&gt;Answer42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer42.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer42.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Answer44.Name" xml:space="preserve">
+    <value>Answer44</value>
+  </data>
+  <data name="&gt;&gt;Answer44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer44.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer44.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Answer41.Name" xml:space="preserve">
+    <value>Answer41</value>
+  </data>
+  <data name="&gt;&gt;Answer41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer41.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer41.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Answer43.Name" xml:space="preserve">
+    <value>Answer43</value>
+  </data>
+  <data name="&gt;&gt;Answer43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer43.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer43.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 407</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 141</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Answer45.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 112</value>
+  </data>
+  <data name="Answer45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 19</value>
+  </data>
+  <data name="Answer45.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Answer45.Text" xml:space="preserve">
+    <value>свидетельн..ца, задабр..ваемый</value>
+  </data>
+  <data name="&gt;&gt;Answer45.Name" xml:space="preserve">
+    <value>Answer45</value>
+  </data>
+  <data name="&gt;&gt;Answer45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer45.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer45.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Answer42.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="Answer42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 19</value>
+  </data>
+  <data name="Answer42.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Answer42.Text" xml:space="preserve">
+    <value>продл..вать, син..ва</value>
+  </data>
+  <data name="&gt;&gt;Answer42.Name" xml:space="preserve">
+    <value>Answer42</value>
+  </data>
+  <data name="&gt;&gt;Answer42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer42.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer42.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Answer44.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="Answer44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 19</value>
+  </data>
+  <data name="Answer44.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Answer44.Text" xml:space="preserve">
+    <value>экзотич..ский, увес..стый</value>
+  </data>
+  <data name="&gt;&gt;Answer44.Name" xml:space="preserve">
+    <value>Answer44</value>
+  </data>
+  <data name="&gt;&gt;Answer44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer44.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer44.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Answer41.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="Answer41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 19</value>
+  </data>
+  <data name="Answer41.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Answer41.Text" xml:space="preserve">
+    <value>вкрадч..вый, отапл..вать</value>
+  </data>
+  <data name="&gt;&gt;Answer41.Name" xml:space="preserve">
+    <value>Answer41</value>
+  </data>
+  <data name="&gt;&gt;Answer41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer41.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer41.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Answer43.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 62</value>
+  </data>
+  <data name="Answer43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 19</value>
+  </data>
+  <data name="Answer43.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Answer43.Text" xml:space="preserve">
+    <value>леденц..вый, ухаж..р</value>
+  </data>
+  <data name="&gt;&gt;Answer43.Name" xml:space="preserve">
+    <value>Answer43</value>
+  </data>
+  <data name="&gt;&gt;Answer43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer43.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;Answer43.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Answer55.Name" xml:space="preserve">
+    <value>Answer55</value>
+  </data>
+  <data name="&gt;&gt;Answer55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer55.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer55.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Answer52.Name" xml:space="preserve">
+    <value>Answer52</value>
+  </data>
+  <data name="&gt;&gt;Answer52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer52.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer52.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Answer54.Name" xml:space="preserve">
+    <value>Answer54</value>
+  </data>
+  <data name="&gt;&gt;Answer54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer54.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer54.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Answer51.Name" xml:space="preserve">
+    <value>Answer51</value>
+  </data>
+  <data name="&gt;&gt;Answer51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer51.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer51.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Answer53.Name" xml:space="preserve">
+    <value>Answer53</value>
+  </data>
+  <data name="&gt;&gt;Answer53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer53.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer53.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 585</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 138</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Answer55.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer55.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 108</value>
+  </data>
+  <data name="Answer55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 19</value>
+  </data>
+  <data name="Answer55.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Answer55.Text" xml:space="preserve">
+    <value>(они) обид..тся, пове..вший</value>
+  </data>
+  <data name="&gt;&gt;Answer55.Name" xml:space="preserve">
+    <value>Answer55</value>
+  </data>
+  <data name="&gt;&gt;Answer55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer55.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer55.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Answer52.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer52.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="Answer52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 19</value>
+  </data>
+  <data name="Answer52.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="Answer52.Text" xml:space="preserve">
+    <value>та..щие (снега), (они) вид..тся</value>
+  </data>
+  <data name="&gt;&gt;Answer52.Name" xml:space="preserve">
+    <value>Answer52</value>
+  </data>
+  <data name="&gt;&gt;Answer52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer52.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer52.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Answer54.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer54.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="Answer54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 19</value>
+  </data>
+  <data name="Answer54.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Answer54.Text" xml:space="preserve">
+    <value>выскоч..м, (вы) вытерп..те</value>
+  </data>
+  <data name="&gt;&gt;Answer54.Name" xml:space="preserve">
+    <value>Answer54</value>
+  </data>
+  <data name="&gt;&gt;Answer54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer54.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer54.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Answer51.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer51.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="Answer51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 19</value>
+  </data>
+  <data name="Answer51.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="Answer51.Text" xml:space="preserve">
+    <value>немысл..мый, застро..нный</value>
+  </data>
+  <data name="&gt;&gt;Answer51.Name" xml:space="preserve">
+    <value>Answer51</value>
+  </data>
+  <data name="&gt;&gt;Answer51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer51.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer51.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Answer53.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer53.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 60</value>
+  </data>
+  <data name="Answer53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 19</value>
+  </data>
+  <data name="Answer53.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Answer53.Text" xml:space="preserve">
+    <value>(вы) устан..те, колебл..мый</value>
+  </data>
+  <data name="&gt;&gt;Answer53.Name" xml:space="preserve">
+    <value>Answer53</value>
+  </data>
+  <data name="&gt;&gt;Answer53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer53.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;Answer53.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Task5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Task5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="Task5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Task5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 565</value>
+  </data>
+  <data name="Task5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>636, 17</value>
+  </data>
+  <data name="Task5.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Task5.Text" xml:space="preserve">
+    <value>4) Укажите варианты ответов, в которых во всех словах одного ряда пропущена одна и та же буква.</value>
+  </data>
+  <data name="&gt;&gt;Task5.Name" xml:space="preserve">
+    <value>Task5</value>
+  </data>
+  <data name="&gt;&gt;Task5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Task5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Task5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Answer64.Name" xml:space="preserve">
+    <value>Answer64</value>
+  </data>
+  <data name="&gt;&gt;Answer64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer64.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer64.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Answer65.Name" xml:space="preserve">
+    <value>Answer65</value>
+  </data>
+  <data name="&gt;&gt;Answer65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer65.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer65.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Answer61.Name" xml:space="preserve">
+    <value>Answer61</value>
+  </data>
+  <data name="&gt;&gt;Answer61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer61.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer61.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Answer62.Name" xml:space="preserve">
+    <value>Answer62</value>
+  </data>
+  <data name="&gt;&gt;Answer62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer62.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer62.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Answer63.Name" xml:space="preserve">
+    <value>Answer63</value>
+  </data>
+  <data name="&gt;&gt;Answer63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer63.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer63.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 754</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>704, 126</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Answer64.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer64.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="Answer64.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 79</value>
+  </data>
+  <data name="Answer64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 19</value>
+  </data>
+  <data name="Answer64.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Answer64.Text" xml:space="preserve">
+    <value>Он пытался меня убедить, что моя попытка уйти от разговора — это (НЕ)ЧТО иное, как боязнь смотреть правде в глаза.</value>
+  </data>
+  <data name="&gt;&gt;Answer64.Name" xml:space="preserve">
+    <value>Answer64</value>
+  </data>
+  <data name="&gt;&gt;Answer64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer64.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer64.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Answer65.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer65.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="Answer65.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 102</value>
+  </data>
+  <data name="Answer65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 19</value>
+  </data>
+  <data name="Answer65.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Answer65.Text" xml:space="preserve">
+    <value>Всё это я рассказал просто, спокойно, (НЕ)СПЕША.</value>
+  </data>
+  <data name="&gt;&gt;Answer65.Name" xml:space="preserve">
+    <value>Answer65</value>
+  </data>
+  <data name="&gt;&gt;Answer65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer65.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer65.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Answer61.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer61.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="Answer61.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 10</value>
+  </data>
+  <data name="Answer61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 19</value>
+  </data>
+  <data name="Answer61.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Answer61.Text" xml:space="preserve">
+    <value>Эта комната только кажется большой, а так она ничуть (НЕ)ПРОСТОРНЕЕ нашей.</value>
+  </data>
+  <data name="&gt;&gt;Answer61.Name" xml:space="preserve">
+    <value>Answer61</value>
+  </data>
+  <data name="&gt;&gt;Answer61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer61.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer61.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Answer62.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer62.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="Answer62.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="Answer62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 19</value>
+  </data>
+  <data name="Answer62.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Answer62.Text" xml:space="preserve">
+    <value>(НЕ)СУМЕВШИЙ справиться с эмоциями гость вёл себя грубо.</value>
+  </data>
+  <data name="&gt;&gt;Answer62.Name" xml:space="preserve">
+    <value>Answer62</value>
+  </data>
+  <data name="&gt;&gt;Answer62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer62.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer62.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Answer63.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Answer63.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9.75pt</value>
+  </data>
+  <data name="Answer63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Answer63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="Answer63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>359, 19</value>
+  </data>
+  <data name="Answer63.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Answer63.Text" xml:space="preserve">
+    <value>Оля что-то всё время (НЕ)ДОГОВАРИВАЛА нам, скрывала.</value>
+  </data>
+  <data name="&gt;&gt;Answer63.Name" xml:space="preserve">
+    <value>Answer63</value>
+  </data>
+  <data name="&gt;&gt;Answer63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Answer63.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;Answer63.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Task6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Task6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 11.25pt</value>
+  </data>
+  <data name="Task6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Task6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 736</value>
+  </data>
+  <data name="Task6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 17</value>
+  </data>
+  <data name="Task6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Task6.Text" xml:space="preserve">
+    <value>5) Определите предложение, в котором НЕ со словом пишется СЛИТНО.</value>
+  </data>
+  <data name="&gt;&gt;Task6.Name" xml:space="preserve">
+    <value>Task6</value>
+  </data>
+  <data name="&gt;&gt;Task6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Task6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Task6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Check.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="Check.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 909</value>
+  </data>
+  <data name="Check.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 45</value>
+  </data>
+  <data name="Check.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Check.Text" xml:space="preserve">
+    <value>Проверить</value>
+  </data>
+  <data name="&gt;&gt;Check.Name" xml:space="preserve">
+    <value>Check</value>
+  </data>
+  <data name="&gt;&gt;Check.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Check.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Check.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OpenTrue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="OpenTrue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OpenTrue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 909</value>
+  </data>
+  <data name="OpenTrue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 45</value>
+  </data>
+  <data name="OpenTrue.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="OpenTrue.Text" xml:space="preserve">
+    <value>Показать ответы</value>
+  </data>
+  <data name="&gt;&gt;OpenTrue.Name" xml:space="preserve">
+    <value>OpenTrue</value>
+  </data>
+  <data name="&gt;&gt;OpenTrue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenTrue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;OpenTrue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>829, 969</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>845, 1008</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
